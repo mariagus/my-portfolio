@@ -15,13 +15,13 @@ body {
 }
 @keyframes page {
   0% {
-    background-color: #ffcfd3;
+    background-color: #ffbdbd;
   }
   50% {
-    background-color: #ade0d4;
+    background-color: #a6e0d2;
   }
   100% {
-    background-color: #ffcfd3;
+    background-color: #ffbdbd;
   }
 }
 
@@ -44,7 +44,7 @@ nav button {
 }
 
 nav button:hover {
-	color: #ffadb4;
+	color: #ff8c8c;
 	cursor: pointer;
 	border-bottom: 1px solid #ffadb4;
 }
@@ -92,7 +92,7 @@ h2 {
 
 #fade {
   animation-name: fadein;
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 
 @keyframes fadein {
