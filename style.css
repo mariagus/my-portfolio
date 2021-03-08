@@ -26,9 +26,9 @@ nav button {
 }
 
 nav button:hover {
-	color: #64bda9;
+	color: #ffadb4;
 	cursor: pointer;
-	border-bottom: 1px solid #64bda9;
+	border-bottom: 1px solid #ffadb4;
 }
 
 main {
@@ -37,12 +37,12 @@ main {
 	padding: 3%;
 	display: flex;
 	flex-direction: column;
-	background-color: #b7ebdf;
+	background-color: #ffcfd3;
 	font-family: 'Nixie One', serif;
 }
 
 .top {
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-left: 5%;
 	max-width: 1200px;
 	display: flex;
@@ -51,7 +51,7 @@ main {
 }
 
 .bottom {
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-right: 5%;
 	max-width: 1200px;
 	display: flex;
