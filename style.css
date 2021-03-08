@@ -32,11 +32,38 @@ nav button:hover {
 }
 
 main {
-	margin: 2% 5% 2% 5%;
+	padding: 2%;
+	margin: 2%;
+	display: flex;
+	flex-direction: column;
+	min-width: 600px; 
+	background-color: pink;
 	font-family: 'Cormorant Garamond', serif;
+}
+
+.top{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start; 
+	margin: 2%;
+}
+
+.bottom{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end; 
+	margin-left: 20px;
 }
 
 h2, h1 {
 	margin: 0;
 	
+}
+h1 {
+	font-size: 8rem;
+	font-weight: thin;
+}
+
+h2 {
+	font-size: 6rem;
 }
