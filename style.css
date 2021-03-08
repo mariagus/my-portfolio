@@ -32,15 +32,16 @@ nav button:hover {
 }
 
 main {
+	height: 100vh;
 	padding: 3%;
 	display: flex;
 	flex-direction: column;
-	min-width: 600px; 
 	background-color: #b7ebdf;
 	font-family: 'Nixie One', serif;
 }
 
 .top {
+	margin-left: 10%;
 	max-width: 1200px;
 	display: flex;
 	flex-direction: column;
@@ -48,6 +49,7 @@ main {
 }
 
 .bottom {
+	margin-right: 10%;
 	max-width: 1200px;
 	display: flex;
 	flex-direction: column;
@@ -66,4 +68,24 @@ h2 {
 h1 { 
 	font-size: 5rem;
 	font-weight: 100;
+}
+
+#fade {
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0.4;
+  }
+  66% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
 }
