@@ -13,6 +13,7 @@ body {
   animation-duration: 8s;
   animation-fill-mode: forwards;
 }
+
 @keyframes page {
   0% {
     background-color: #ffbdbd;
@@ -129,6 +130,3 @@ h2 {
 	  font-size: 4rem;
   }
 }
-
-
-
