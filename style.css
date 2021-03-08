@@ -10,7 +10,7 @@ body {
 nav {
 	display: flex;
 	padding: 10px;
-	background-color: #383838;
+	background-color: #1c1c1c;
 }
 
 nav button {
@@ -32,7 +32,7 @@ nav button:hover {
 }
 
 main {
-	color: #454545;
+	color: #1c1c1c;
 	height: 100vh;
 	padding: 3%;
 	display: flex;
