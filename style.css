@@ -41,6 +41,7 @@ main {
 }
 
 .top {
+	margin-top: 10%;
 	margin-left: 5%;
 	max-width: 1200px;
 	display: flex;
@@ -49,6 +50,7 @@ main {
 }
 
 .bottom {
+	margin-top: 10%;
 	margin-right: 5%;
 	max-width: 1200px;
 	display: flex;
