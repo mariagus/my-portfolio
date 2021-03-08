@@ -32,6 +32,7 @@ nav button:hover {
 }
 
 main {
+	color: #454545;
 	height: 100vh;
 	padding: 3%;
 	display: flex;
