@@ -32,22 +32,23 @@ nav button:hover {
 }
 
 main {
-	padding: 0 2% 5% 2%;
+	padding: 0 3% 5% 3%;
 	display: flex;
 	flex-direction: column;
 	min-width: 600px; 
 	background-color: #b7ebdf;
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Nixie One', serif;
 }
 
-.top{
+.top {
+	max-width: 1200px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start; 
-	margin: 2%;
 }
 
-.bottom{
+.bottom {
+	max-width: 1200px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end; 
@@ -58,10 +59,11 @@ h2, h1 {
 }
 
 h1 {
-	font-size: 10rem;
+	font-size: 9rem;
+	font-weight: 200;
 }
 
 h2 {
-	font-size: 8rem;
+	font-size: 5rem;
 	font-weight: 100;
 }
