@@ -3,11 +3,11 @@
 }
 
 html {
+	font-family: 'Nixie One', serif;
 	scroll-behavior: smooth;
 }
 
 body {
-	background-color: #f3f3f3;
 	margin: 0;
 }
 
@@ -136,6 +136,34 @@ h2 {
   }
 }
 
-.grid {
+#projects {
+	padding: 3%;
 	font-family: 'Nixie One', serif;
 }
+
+.grid {
+	display: grid;
+	text-align: center;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+.project {
+	padding: 20%;
+}
+
+#about {
+	padding: 3%;
+}
+
+#contact {
+	padding: 3%;
+}
+
+
+
+
