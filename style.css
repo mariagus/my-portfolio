@@ -7,6 +7,24 @@ body {
 	margin: 0;
 }
 
+.background {
+  animation-iteration-count: infinite;
+  animation-name: page;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+}
+@keyframes page {
+  0% {
+    background-color: #ffcfd3;
+  }
+  50% {
+    background-color: #ade0d4;
+  }
+  100% {
+    background-color: #ffcfd3;
+  }
+}
+
 nav {
 	display: flex;
 	padding: 10px;
@@ -37,7 +55,6 @@ main {
 	padding: 3%;
 	display: flex;
 	flex-direction: column;
-	background-color: #ffcfd3;
 	font-family: 'Nixie One', serif;
 }
 
