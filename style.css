@@ -1,0 +1,117 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+	background-color: #f3f3f3;
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	padding: 10px;
+	background-color: #1c1c1c;
+}
+
+nav button {
+	color: white;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 10px;
+	font-family: 'Nixie One', serif;
+	border-style: none;
+	background-color: transparent;
+	font-size: 1rem;
+	border-bottom: 1px solid transparent;
+}
+
+nav button:hover {
+	color: #ffadb4;
+	cursor: pointer;
+	border-bottom: 1px solid #ffadb4;
+}
+
+main {
+	color: #1c1c1c;
+	height: 100vh;
+	padding: 3%;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffcfd3;
+	font-family: 'Nixie One', serif;
+}
+
+.top {
+	margin-top: 5%;
+	margin-left: 5%;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start; 
+}
+
+.bottom {
+	margin-top: 5%;
+	margin-right: 5%;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end; 
+}
+
+h2, h1 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 8rem;
+	font-weight: bold;
+}
+
+h2 { 
+	font-size: 7rem;
+	font-weight: 100;
+}
+
+#fade {
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0.4;
+  }
+  66% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+	  font-size: 6rem;
+  }
+  
+  h2 {
+	  font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+	  font-size: 5rem;
+  }
+  
+  h2 {
+	  font-size: 4rem;
+  }
+}
+
+
+
