@@ -4,8 +4,39 @@ box-sizing: border-box;
 
 body {
 	background-color: #f3f3f3;
+	margin: 0;
+}
+
+nav {
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	padding: 10px;
+}
+
+nav button {
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 10px;
+	font-family: 'Cormorant Garamond', serif;
+	border-style: none;
+	background-color: transparent;
+	font-size: 1.5rem;
+	border-bottom: 1px solid transparent;
+}
+
+nav button:hover {
+	color: #64bda9;
+	cursor: pointer;
+	border-bottom: 1px solid #64bda9;
 }
 
 main {
+	margin: 2% 5% 2% 5%;
 	font-family: 'Cormorant Garamond', serif;
+}
+
+h2, h1 {
+	margin: 0;
+	
 }
