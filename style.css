@@ -137,6 +137,7 @@ h2 {
 
 #projects {
 	padding: 3%;
+	padding-top: 10px;
 	font-family: 'Nixie One', serif;
 }
 
@@ -156,11 +157,15 @@ h3 {
 }
 
 #about {
-	padding: 3%;
+	height: 100vh;
+	padding: 10px;
+	padding-top: 0;
 }
 
 #contact {
-	padding: 3%;
+	height: 100vh;
+	padding: 10px;
+	padding-top: 0;
 }
 
 
