@@ -198,5 +198,15 @@ h3 {
 	padding: 3%;
 }
 
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h3 span {
+	text-decoration: line-through;
+}
+
 
 
