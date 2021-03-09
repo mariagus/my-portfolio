@@ -152,36 +152,6 @@ h3 {
 	font-size: 2rem;
 }
 
-.project1 {
-	position: relative;
-	background-image: url("profiler.png");
-}
-
-.title {
-	opacity: 0;
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: grey;
-	width: 100%;
-	height: 100%;
-	
-}
-
-.title a{
-	text-decoration: none;
-}
-
-.title:hover {
-	opacity: 1;
-	font-size: 2rem;
-}
-
-.title a:hover {
-	color: white;
-}
-
 #about {
 	padding: 10px;
 	padding-top: 0;
