@@ -1,5 +1,5 @@
 * {
-    sbox-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
@@ -30,7 +30,12 @@ body {
   }
 }
 
+header {
+	position: fixed;
+}
+
 nav {
+	width: 100vw;
 	display: flex;
 	padding: 10px;
 	background-color: #1c1c1c;
@@ -51,7 +56,6 @@ nav a {
 
 nav a:hover {
 	color: #ff8c8c;
-	cursor: pointer;
 	border-bottom: 1px solid #ffadb4;
 }
 
