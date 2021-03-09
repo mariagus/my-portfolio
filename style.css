@@ -152,6 +152,10 @@ h3 {
 	font-size: 2rem;
 }
 
+.project:hover {
+	opacity: 0.5;
+}
+
 #about {
 	padding: 10px;
 	padding-top: 0;
