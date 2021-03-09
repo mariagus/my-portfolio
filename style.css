@@ -204,8 +204,21 @@ h3 {
 	align-items: center;
 }
 
+.contact-box {
+	text-decoration: none;
+	color: black;
+	padding: 2rem;
+	border: 1px solid black;
+}
+
 h3 span {
 	text-decoration: line-through;
+}
+
+.git {
+	margin-top: 5%;
+	height: 120px;
+	width: 120px;
 }
 
 
