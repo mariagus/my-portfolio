@@ -63,8 +63,7 @@ nav a:hover {
 
 main {
 	color: #1c1c1c;
-	height: 100vh;
-	padding: 3%;
+	padding: 5%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -72,7 +71,6 @@ main {
 }
 
 .top {
-	margin-top: 3%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start; 
