@@ -3,19 +3,18 @@
 <head>
 	<link rel="stylesheet" href="style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="background">
 	<header>
 		<nav>
-			<button>home.</button>
-			<button>about.</button>
-			<button>projects.</button>
-			<button>contact me.</button>
+			<a href="#home">home.</a>
+			<a href="#projects">projects.</a>
+			<a href="#about">about.</a>
+			<a href="#contact">contact.</a>
 		</nav>
 	</header>
-	<main>
+	<main id="home">
 		<div class="top" id="fade">
 		<h1>maria</h1>
 		<h1>gusova.</h1>
@@ -27,5 +26,45 @@
 	</div>
 	</div>
 	</main>
+	<section id="projects">
+		<h3>projects.</h3>
+		<div class="grid">
+			<div class="project">
+				<a href="https://github.com/firefox-devtools/profiler"><img src="profiler.png" alt="firefox profiler"/><p>Firefox Profiler</p></a>
+			</div>
+			<div class="project">
+				<a href="https://mariagus.github.io/de-tough/"><img src="detough.png" alt="DE-Tough"/><p>DE-Tough LTD</p></a>
+			</div>
+			<div class="project">
+				<a href="https://mariagus.github.io/grumpygit/"><img src="grumpygit.png" alt="Grumpy Git"/><p>Grumpy Git</p></a>
+			</div>
+			<div class="project">
+				<a href="https://mariagus.github.io/pomodoro-clock/"><img src="pomodoro.png" alt="Pomodoro Clock"/><p>Pomodoro Clock</p></a>
+			</div>
+		</div>
+	</section>
+	<section id="about">
+		<h3>about me.</h3>
+		<div class="aboutMe">
+		      <p>
+		        I'm Maria, a software developer based in Bristol, UK. <br/> I discovered my passion for programming in 2019, when I realised how much I enjoy problem-solving. My initial focus was on gaining a strong foundation in JavaScript and working through algorithms, before moving on to building personal projects and contributing to open source.</p>
+		        <p>Technologies I have used:</p>
+				<ul>
+		        <li>JavaScript (ES6+)</li>
+		        <li>HTML & CSS</li>
+		        <li>React</li>
+		        <li>Git</li>
+		        <li>Redux</li>
+		        <li>Flow</li>
+		        <li>Jest</li>
+		        <li>Express</li>
+		        <li>MongoDB</li>
+		        <li>Mongoose</li>
+			</ul>
+		        </div>
+	</section>
+	<section id="contact">
+		<h3>get in touch.</h3>
+	</section>
 </body>
 </html>

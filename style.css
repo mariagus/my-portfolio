@@ -1,33 +1,63 @@
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+	font-family: 'Nixie One', serif;
+	scroll-behavior: smooth;
 }
 
 body {
-	background-color: #f3f3f3;
 	margin: 0;
+	width: 100%;
+}
+
+.background {
+  animation-iteration-count: infinite;
+  animation-name: page;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes page {
+  0% {
+    background-color: #ffbdbd;
+  }
+  50% {
+    background-color: #a6e0d2;
+  }
+  100% {
+    background-color: #ffbdbd;
+  }
+}
+
+header {
+	position: fixed;
+	width: 100%;
 }
 
 nav {
+	width: 100%;
 	display: flex;
 	padding: 10px;
 	background-color: #1c1c1c;
 }
 
-nav button {
-	color: white;
+nav a {
+	text-decoration: none;
+	font-family: 'Nixie One', serif;
+	color: #a6e0d2;
 	margin-right: 5px;
 	margin-left: 5px;
 	padding: 10px;
-	font-family: 'Nixie One', serif;
 	border-style: none;
 	background-color: transparent;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	border-bottom: 1px solid transparent;
 }
 
-nav button:hover {
-	color: #ffadb4;
-	cursor: pointer;
+nav a:hover {
+	color: #ff8c8c;
 	border-bottom: 1px solid #ffadb4;
 }
 
@@ -37,23 +67,18 @@ main {
 	padding: 3%;
 	display: flex;
 	flex-direction: column;
-	background-color: #ffcfd3;
+	justify-content: space-between;
 	font-family: 'Nixie One', serif;
 }
 
 .top {
-	margin-top: 5%;
-	margin-left: 5%;
-	max-width: 1200px;
+	margin-top: 3%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start; 
 }
 
 .bottom {
-	margin-top: 5%;
-	margin-right: 5%;
-	max-width: 1200px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end; 
@@ -64,18 +89,18 @@ h2, h1 {
 }
 
 h1 {
-	font-size: 8rem;
+	font-size: 10rem;
 	font-weight: bold;
 }
 
 h2 { 
-	font-size: 7rem;
+	font-size: 8rem;
 	font-weight: 100;
 }
 
 #fade {
   animation-name: fadein;
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 
 @keyframes fadein {
@@ -111,6 +136,45 @@ h2 {
   h2 {
 	  font-size: 4rem;
   }
+}
+
+#projects {
+	padding: 3%;
+	font-family: 'Nixie One', serif;
+}
+
+.grid {
+	display: grid;
+	text-align: center;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+img {
+	width: 80%;
+}
+
+@media only screen and (max-width: 600px){
+	.grid {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+.project:hover {
+	opacity: 0.5;
+}
+
+#about {
+	padding: 3%;
+}
+
+#contact {
+	padding: 3%;
 }
 
 
