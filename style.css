@@ -37,7 +37,7 @@ header {
 
 nav {
 	display: flex;
-	padding: 10px;
+	padding: 3%;
 	background-color: #1c1c1c;
 }
 
@@ -60,8 +60,7 @@ nav a:hover {
 }
 
 main {
-	height: 100%;
-	width: 100%;
+	height: 100vh;
 	color: #1c1c1c;
 	padding: 5%;
 	display: flex;
@@ -118,8 +117,7 @@ h2 {
 }
 
 .projects {
-	color: #ff8c8c;
-    background-color: #1c1c1c;
+	height: 100vh;
 	padding: 5%;
 	font-family: 'Nixie One', serif;
 	display: flex;
@@ -167,8 +165,9 @@ h3 {
 }
 
 .contact {
-    background-color: #1c1c1c;
+	height: 100vh;
 	padding: 3%;
+	padding-top: 40%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -176,16 +175,16 @@ h3 {
 
 .contact-box {
 	text-decoration: none;
-	color: #ff8c8c;
 	padding: 2rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	border: 1px solid #ff8c8c;
+	border: 1px solid black;
+	color: black;
 }
 
 .contact-box:hover {
-	background-color: #ff8c8c;
-	color: black;
+	background-color: black;
+	color: #ff8c8c;
 }
 
 h3 span {
@@ -193,7 +192,8 @@ h3 span {
 }
 
 .git {
-	margin-top: 5%;
+	margin-top: 20%;
+	text-align: center;
 	height: 120px;
 	width: 120px;
 }
@@ -210,7 +210,10 @@ h3 span {
   }
   main {
 	  padding-top: 60px;
-	  height: 100vh;
+  }
+  .contact-font {
+  	font-size: 20px;
+	font-weight: bold;
   }
 }
 
