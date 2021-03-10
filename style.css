@@ -50,7 +50,7 @@ nav a {
 	padding: 10px;
 	border-style: none;
 	background-color: transparent;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	border-bottom: 1px solid transparent;
 }
 
@@ -62,24 +62,20 @@ nav a:hover {
 main {
 	height: 100vh;
 	color: #1c1c1c;
-	padding: 5%;
+	padding: 5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	align-items: center;
 	font-family: 'Nixie One', serif;
 }
 
 .top {
-	padding-top: 5%;
-	display: flex;
-	flex-direction: column; 
+	margin-top: 5%;
 }
 
 .bottom {
-	align-items: flex-end;
-	display: flex;
-	flex-direction: column;
+	margin-bottom: 5%;
 }
 
 h2, h1 {
@@ -87,12 +83,14 @@ h2, h1 {
 }
 
 h1 {
-	font-size: 8rem;
+	text-align: left;
+	font-size: 10rem;
 	font-weight: bold;
 }
 
 h2 { 
-	font-size: 6rem;
+	text-align: right;
+	font-size: 8rem;
 	font-weight: 100;
 }
 
@@ -117,7 +115,6 @@ h2 {
 }
 
 .projects {
-	height: 100vh;
 	padding: 5%;
 	font-family: 'Nixie One', serif;
 	display: flex;
@@ -145,6 +142,7 @@ h3 {
 }
 
 .about-me {
+	height: fit-content;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -165,7 +163,6 @@ h3 {
 }
 
 .contact {
-	height: 100vh;
 	padding: 3%;
 	padding-top: 40%;
 	display: flex;
@@ -201,15 +198,6 @@ h3 span {
 @media only screen and (max-width: 600px) {
  nav a {
 	  font-size: 1rem;
-  }
-  h1 {
-	  font-size: 4rem;
-  }
-  h2 {
-	  font-size: 3rem;
-  }
-  .bottom {
-	  margin-bottom: 3rem;
   }
   .contact-font {
   	font-size: 20px;
