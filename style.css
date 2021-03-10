@@ -166,7 +166,7 @@ h3 {
 .contact {
 	height: 100vh;
 	padding: 3%;
-	padding-top: 40%;
+	padding-top: 20%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -191,10 +191,15 @@ h3 span {
 }
 
 .git {
-	margin-top: 20%;
+	margin-top: 10%;
 	text-align: center;
 	height: 120px;
 	width: 120px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 650px) {
@@ -212,5 +217,3 @@ h3 span {
 	  font-size: 2rem;
   }
 }
-
-
