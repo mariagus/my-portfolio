@@ -8,6 +8,7 @@ html {
 }
 
 body {
+	min-width: 320px;
 	margin: 0;
 }
 
@@ -62,11 +63,11 @@ nav a:hover {
 main {
 	height: 100vh;
 	color: #1c1c1c;
-	padding: 5rem;
+	padding: 2rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;
+	/*align-items: flex-start;*/
 	font-family: 'Nixie One', serif;
 }
 
@@ -196,13 +197,19 @@ h3 span {
 	width: 120px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
  nav a {
 	  font-size: 1rem;
   }
   .contact-font {
   	font-size: 20px;
 	font-weight: bold;
+  }
+  h1 {
+	  font-size: 3rem;
+  }
+  h2 {
+	  font-size: 2rem;
   }
 }
 
