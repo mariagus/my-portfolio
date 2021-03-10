@@ -9,7 +9,7 @@ html {
 
 body {
 	margin: 0;
-	width: 100%;
+	/*width: 100%;*/
 }
 
 .background {
@@ -37,7 +37,7 @@ header {
 }
 
 nav {
-	width: 100%;
+	/*width: 100%;*/
 	display: flex;
 	padding: 10px;
 	background-color: #1c1c1c;
@@ -61,18 +61,13 @@ nav a:hover {
 	border-bottom: 1px solid #ffadb4;
 }
 
-@media only screen and (max-width: 400px) {
- nav a {
-	  font-size: 5rem;
-  }
-}
-
 main {
 	color: #1c1c1c;
 	padding: 5%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	font-family: 'Nixie One', serif;
 }
 
@@ -122,27 +117,9 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 900px) {
-  h1 {
-	  font-size: 6rem;
-  }
-  
-  h2 {
-	  font-size: 5rem;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  h1 {
-	  font-size: 5rem;
-  }
-  
-  h2 {
-	  font-size: 4rem;
-  }
-}
-
-#projects {
+.projects {
+	color: #ff8c8c;
+    background-color: #1c1c1c;
 	padding: 5%;
 	font-family: 'Nixie One', serif;
 	display: flex;
@@ -159,13 +136,6 @@ h2 {
 
 img {
 	width: 80%;
-}
-
-@media only screen and (max-width: 600px){
-	.grid {
-		display: flex;
-		flex-direction: column;
-	}
 }
 
 h3 {
@@ -197,6 +167,7 @@ h3 {
 }
 
 .contact {
+    background-color: #1c1c1c;
 	padding: 3%;
 	display: flex;
 	flex-direction: column;
@@ -205,16 +176,16 @@ h3 {
 
 .contact-box {
 	text-decoration: none;
-	color: black;
+	color: #ff8c8c;
 	padding: 2rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	border: 1px solid black;
+	border: 1px solid #ff8c8c;
 }
 
 .contact-box:hover {
-	background-color: black;
-	color: #a6e0d2;
+	background-color: #ff8c8c;
+	color: black;
 }
 
 h3 span {
@@ -225,6 +196,22 @@ h3 span {
 	margin-top: 5%;
 	height: 120px;
 	width: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+ nav a {
+	  font-size: 1rem;
+  }
+  h1 {
+	  font-size: 4rem;
+  }
+  h2 {
+	  font-size: 3rem;
+  }
+  main {
+	  padding-top: 60px;
+	  height: 100vh;
+  }
 }
 
 
