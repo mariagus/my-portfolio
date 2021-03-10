@@ -163,6 +163,7 @@ h3 {
 }
 
 .contact {
+	height: 100vh;
 	padding: 3%;
 	padding-top: 40%;
 	display: flex;
