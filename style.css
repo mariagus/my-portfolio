@@ -211,6 +211,9 @@ h3 span {
   main {
 	  padding-top: 60px;
   }
+  .bottom {
+	  margin-bottom: 3rem;
+  }
   .contact-font {
   	font-size: 20px;
 	font-weight: bold;
