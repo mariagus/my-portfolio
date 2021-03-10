@@ -61,6 +61,12 @@ nav a:hover {
 	border-bottom: 1px solid #ffadb4;
 }
 
+@media only screen and (max-width: 400px) {
+ nav a {
+	  font-size: 5rem;
+  }
+}
+
 main {
 	color: #1c1c1c;
 	padding: 5%;
@@ -220,6 +226,5 @@ h3 span {
 	height: 120px;
 	width: 120px;
 }
-
 
 
