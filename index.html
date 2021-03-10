@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet"/>
 </head>
 <body class="background">
 	<header>
@@ -26,7 +28,7 @@
 	</div>
 	</div>
 	</main>
-	<section id="projects">
+	<section id="projects" class="projects">
 		<h3>projects.</h3>
 		<div class="grid">
 			<div class="project">
@@ -44,27 +46,31 @@
 		</div>
 	</section>
 	<section id="about">
+		<div class="about-me">
 		<h3>about me.</h3>
-		<div class="aboutMe">
-		      <p>
+			<img src="me.jpeg" alt="me" />	
+			<div class="text">	
+				 <p>
 		        I'm Maria, a software developer based in Bristol, UK. <br/> I discovered my passion for programming in 2019, when I realised how much I enjoy problem-solving. My initial focus was on gaining a strong foundation in JavaScript and working through algorithms, before moving on to building personal projects and contributing to open source.</p>
 		        <p>Technologies I have used:</p>
 				<ul>
-		        <li>JavaScript (ES6+)</li>
-		        <li>HTML & CSS</li>
-		        <li>React</li>
-		        <li>Git</li>
-		        <li>Redux</li>
-		        <li>Flow</li>
-		        <li>Jest</li>
-		        <li>Express</li>
-		        <li>MongoDB</li>
-		        <li>Mongoose</li>
+		        	<li>JavaScript (ES6+)</li>
+		        	<li>HTML & CSS</li>
+		        	<li>React</li>
+		        	<li>Git</li>
+		        	<li>Redux</li>
+		        	<li>Flow</li>
+		        	<li>Jest</li>
+		       	 	<li>Express</li>
+		        	<li>MongoDB</li>
+		        	<li>Mongoose</li>
 			</ul>
+		</div>
 		        </div>
 	</section>
-	<section id="contact">
-		<h3>get in touch.</h3>
+	<section id="contact" class="contact">
+		<a class="contact-box" href="mailto:masha.gu@gmail.com"><h3 class="contact-font"><span>don't</span> get in touch.</h3></a>
+		<a class="git" href="https://github.com/mariagus"><img src="github.png" alt="github icon"/></a>
 	</section>
 </body>
 </html>
