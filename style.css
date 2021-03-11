@@ -48,10 +48,9 @@ nav a {
 	color: #a6e0d2;
 	margin-right: 5px;
 	margin-left: 5px;
-	padding: 10px;
-	border-style: none;
+	padding: 8px;
 	background-color: transparent;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	border-bottom: 1px solid transparent;
 }
 
@@ -71,7 +70,7 @@ main {
 }
 
 .top {
-	margin-top: 5%;
+	margin-top: 2%;
 }
 
 .bottom {
@@ -94,7 +93,7 @@ h2 {
 	font-weight: 100;
 }
 
-#fade {
+.fade {
   animation-name: fadein;
   animation-duration: 3s;
 }
@@ -142,7 +141,6 @@ h3 {
 }
 
 .about-me {
-	height: fit-content;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -204,6 +202,7 @@ footer {
 @media only screen and (max-width: 650px) {
  nav a {
 	  font-size: 1rem;
+	  padding: 5px;
   }
   .contact-font {
   	font-size: 20px;
