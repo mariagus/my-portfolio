@@ -148,6 +148,7 @@ h3 {
 }
 
 .about-me img {
+  margin: 1rem;
   height: 200px;
   width: 200px;
   border-radius: 50%;
