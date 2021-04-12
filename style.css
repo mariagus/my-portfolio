@@ -1,15 +1,15 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-	font-family: 'Nixie One', serif;
-	scroll-behavior: smooth;
+  font-family: "Nixie One", serif;
+  scroll-behavior: smooth;
 }
 
 body {
-	min-width: 320px;
-	margin: 0;
+  min-width: 320px;
+  margin: 0;
 }
 
 .background {
@@ -32,65 +32,66 @@ body {
 }
 
 header {
-	position: fixed;
-	width: 100%;
+  position: fixed;
+  width: 100%;
 }
 
 nav {
-	display: flex;
-	padding: 1%;
-	background-color: #1c1c1c;
+  display: flex;
+  padding: 1%;
+  background-color: #1c1c1c;
 }
 
 nav a {
-	text-decoration: none;
-	font-family: 'Nixie One', serif;
-	color: #a6e0d2;
-	margin-right: 5px;
-	margin-left: 5px;
-	padding: 8px;
-	background-color: transparent;
-	font-size: 1.2rem;
-	border-bottom: 1px solid transparent;
+  text-decoration: none;
+  font-family: "Nixie One", serif;
+  color: #a6e0d2;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 8px;
+  background-color: transparent;
+  font-size: 1.2rem;
+  border-bottom: 1px solid transparent;
 }
 
 nav a:hover {
-	color: #ff8c8c;
-	border-bottom: 1px solid #ffadb4;
+  color: #ff8c8c;
+  border-bottom: 1px solid #ffadb4;
 }
 
 main {
-	height: 100vh;
-	color: #1c1c1c;
-	padding: 2rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	font-family: 'Nixie One', serif;
+  height: 100vh;
+  color: #1c1c1c;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Nixie One", serif;
 }
 
 .top {
-	margin-top: 2%;
+  margin-top: 2%;
 }
 
 .bottom {
-	margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 
-h2, h1 {
-	margin: 0;
+h2,
+h1 {
+  margin: 0;
 }
 
 h1 {
-	text-align: left;
-	font-size: 10rem;
-	font-weight: bold;
+  text-align: left;
+  font-size: 10rem;
+  font-weight: bold;
 }
 
-h2 { 
-	text-align: right;
-	font-size: 8rem;
-	font-weight: 100;
+h2 {
+  text-align: right;
+  font-size: 8rem;
+  font-weight: 100;
 }
 
 .fade {
@@ -114,104 +115,109 @@ h2 {
 }
 
 .projects {
-	padding: 5%;
-	font-family: 'Nixie One', serif;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  padding: 5%;
+  font-family: "Nixie One", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .grid {
-	display: grid;
-	text-align: center;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 img {
-	width: 80%;
+  width: 80%;
 }
 
 h3 {
-	font-size: 2rem;
+  font-size: 2rem;
 }
 
 .project:hover {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 .about-me {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-me img {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 
 .about-me {
-	padding: 5%;
+  padding: 5%;
 }
 
 .text {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .contact {
-	height: 100vh;
-	padding: 3%;
-	padding-top: 20%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  height: 100vh;
+  padding: 3%;
+  padding-top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-box {
-	text-decoration: none;
-	padding: 2rem;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	border: 1px solid black;
-	color: black;
+  text-decoration: none;
+  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 1px solid black;
+  color: black;
 }
 
 .contact-box:hover {
-	background-color: black;
-	color: #ff8c8c;
+  background-color: black;
+  color: #ff8c8c;
 }
 
 h3 span {
-	text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .git {
-	margin-top: 10%;
-	text-align: center;
-	height: 120px;
-	width: 120px;
+  margin-top: 10%;
+  text-align: center;
+  height: 120px;
+  width: 120px;
 }
 
 footer {
-	text-align: center;
-	margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 650px) {
- nav a {
-	  font-size: 1rem;
-	  padding: 5px;
+  nav a {
+    font-size: 1rem;
+    padding: 5px;
   }
   .contact-font {
-  	font-size: 20px;
-	font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
   }
   h1 {
-	  font-size: 3rem;
+    font-size: 3rem;
   }
   h2 {
-	  font-size: 2rem;
+    font-size: 2rem;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
